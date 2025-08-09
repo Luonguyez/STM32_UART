@@ -42,17 +42,16 @@ A simple STM32F411E Discovery project to control LEDs using the on-board button 
 - **TIM4 (PWM):** Adjust LED2 (PD13) brightness from 0–100%
 
 ## Hardware
-- **Board:** STM32F411E Discovery
+- **Board:** STM32F411E Discovery, USB to TTL CP2102
 - **Button:** On-board User Button (PA0, EXTI)
 - **LEDs:**
   - PD12 → LED1 (Toggle via button/UART)
   - PD13 → LED2 (Brightness via PWM)
   - PD14 → LED3 (Blink via TIM2)
-- **UART:** USART2 TX/RX to PC via USB
+- **UART:** USART2 TX/RX to PC via USB Hercules
 
 ## Tools
 - **IDE:** STM32CubeIDE (build, debug, flash)
-- **Terminal:** PuTTY, Tera Term, or similar
 - **Library:** STM32 HAL
 
 ## What I Learned
