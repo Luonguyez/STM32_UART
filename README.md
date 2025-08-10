@@ -18,9 +18,9 @@ A simple STM32F411E Discovery project demonstrating:
 - **Board:** STM32F411E Discovery
 - **Button:** On-board User Button (PA0)
 - **LEDs:**
-  - PD12 → LED1 (Toggle via button/UART)
-  - PD14 → LED3 (Blink via timer)
-  - PD13 → LED2 (Brightness via PWM)
+  - LED 1: Toggled by push-button using EXTI interrupt and via UART commands from PC.
+  - LED 2: Brightness controlled by PWM, PWM value received from PC via UART.
+  - LED 3: Toggles ON/OFF with interval time set through UART commands from PC.
 - **UART:** USART2 TX/RX connected to PC
 
 ## Tools
